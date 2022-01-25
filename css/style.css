@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ================== Main CSS start ================== */
+
+#form{
+    width: 100%;
+    height: 1000px;
+    background: black;
+}
+.main{
+    width: 500px;
+    padding: 40px;
+    background: #ddd;
+    margin: 0 auto;
+}
+.form-header{
+    text-align: center;
+}
+.form-header h3{
+    font-size: 25px;
+    color: teal;
+}
+.form-field{
+    margin-top: 20px;
+    text-align: center;
+}
+.form-field input{
+    padding: 8px 20px;
+    width: 100%;
+}
+.form-button{
+    text-align: center;
+}
+.form-button button{
+    padding: 8px 15px;
+    margin-top: 20px;
+}
+.err-msg{
+    font-size: 15px;
+    color: red;
+}
+.passshow{
+    position: relative;
+}
+.passshow button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: teal;
+    border: none;
+    padding: 10px 12px;
+    color: #fff;
+    cursor: pointer;
+}
